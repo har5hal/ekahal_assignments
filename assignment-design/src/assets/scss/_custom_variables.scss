@@ -1,0 +1,49 @@
+// Colors
+$blue: #004890;
+$sky_blue: #BCE3F8;
+
+$colors: (
+        "blue": $blue,
+        "sky_blue": $sky_blue   
+);
+
+$primary: $blue;
+$secondary: $sky_blue;
+
+$theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary
+);
+
+
+// Spacing
+$spacer: 1rem !default;
+     // stylelint-disable-next-line scss/dollar-variable-default
+     $spacers: (
+         0: 0,
+         1: ($spacer * .25),    //4px
+         2: ($spacer * .5),     //8px
+         3: $spacer,            //16px
+         4: ($spacer * 1.5),    //24px
+         5: ($spacer * 3),      //48px
+         6: ($spacer * 4),      //64px
+         7: ($spacer * 5),      //80px
+         8: ($spacer * 6.25),   //100px
+         9: ($spacer * 7.5),    //120px
+         10: ($spacer * 9.375)  //150px
+     );
+
+
+// Anchor Elements
+$link-hover-decoration: none;
+
+// Fonts
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$font-size-lg: .875rem;
+
+// $font-weight-bold: 900;
+
+//Buttons + Forms
+$input-btn-padding-y-lg:      .875rem;
+$input-btn-padding-x-lg:      3rem !default;

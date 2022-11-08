@@ -1,0 +1,14 @@
+.section_header {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2.5rem;
+    font-weight: $font-weight-bold;
+    color: $primary;
+    text-transform: capitalize;
+}
+
+.section_content {
+    font-size: .95rem;
+    font-weight: $headings-font-weight;
+    letter-spacing: .04rem;
+    color: $gray-600;
+}

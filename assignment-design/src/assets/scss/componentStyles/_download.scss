@@ -1,0 +1,22 @@
+.download-file-section {
+    position: relative;    
+}
+.download-file-section span {
+    position: absolute;
+    top: -1rem;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 60%;
+    text-align: center;
+    z-index: 2;
+}
+
+.download-file-section .list-group-item {
+    border: 0;
+}
+.download-file-section .list-group-item img {
+    width: 34px;
+    height: 34px;
+}
